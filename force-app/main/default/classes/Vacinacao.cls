@@ -17,7 +17,7 @@ global class Vacinacao  implements Schedulable {
             }
             else if (zb.DataZumbificacao__c.addDays(20)  <= Date.today() && zb.DataSegundaDose__c == null){
                 zb.DataSegundaDose__c = Date.today();
-                zb.recordtypeId = '0125e000000mg9GAAQ';
+                zb.recordtypeId = '0125e000000mg9GAAQ' ;
             }
             
             
